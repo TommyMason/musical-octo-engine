@@ -8,3 +8,6 @@
   status = 301
   force = false
   query = {path = ":path"}
+
+  [build.environment]
+  NODE_VERSION = "11.15"
