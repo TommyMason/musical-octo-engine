@@ -1,0 +1,12 @@
+
+<div class="section c-hero h-2-col h-full-width c-section">
+  <div class="c-hero--text">
+    <h1>
+      {{ intro }}
+    </h1>
+    <a href="{{ site.contactlink }}" class="c-btn--primary c-btn">{{ site.contactlinktext }} </a>
+  </div>
+  {% if featureImage %}
+    <img src="{{ featureImage | safe }}" />
+  {% endif %}
+</div>

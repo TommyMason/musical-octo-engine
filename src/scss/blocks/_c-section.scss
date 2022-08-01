@@ -1,0 +1,108 @@
+.c-section {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-large) var(--padding-large);
+}
+
+.h-3-col .c-section {
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .c-section {
+    padding: var(--padding-large) var(--padding);
+  }
+}
+
+
+
+.c-section--center {
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .c-section--center {
+    padding-bottom: 6rem;
+  }
+}
+
+.c-section--2 {
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .c-section--2 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .c-section--reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.c-section--black {
+  background-color: var(--black);
+  border-radius: var(--border-radius-small);
+  margin: var(--padding) var(--padding-large);
+}
+
+@media screen and (max-width: 600px) {
+
+  .c-section--black {
+    margin: var(--padding);
+  }
+
+  .c-section--black img {
+    width: 150px;
+  }
+
+}
+
+.c-section--black * {
+  color: var(--white);
+}
+
+.c-section--black h3 {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .c-section--black div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .c-section--black div img,
+  .c-section--black div h3 {
+    text-align: center;
+    padding-bottom: var(--padding-medium);
+  }
+
+  .c-section--black div .c-btn {
+    align-self: center;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+
+  .c-section--black h3 span {
+    color: var(--midlight-grey);
+  }
+
+  .c-section--black div {
+    display: grid !important;
+    grid-gap: 2rem;
+    grid-template-columns: 200px 1fr 220px;
+    align-items: center;
+    justify-items: center;
+  }
+}

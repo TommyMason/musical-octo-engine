@@ -1,0 +1,82 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+
+
+	
+{% if featureImage %}
+<section class="c-hero-casestudy h-full-width">
+    <img src="{{ featureImage | safe }}" />
+</section>
+{% endif %}
+
+<h1>{{ title }}</h1>
+
+<section class="h-2-col-small-big c-section ">
+    <div class="h-2-line-heading">
+        <p>Overview</p>
+    </div>
+    <div class="h-flow">
+        <h2>{{ intro | safe }}</h2>
+    </div>
+</section>
+
+{% if image1 %}
+<sction class="c-image h-rounded"><img src="{{ image1 | safe }}" /></sction>
+{% endif %}
+
+<section class="h-2-col-small-big c-section ">
+    <div class="h-2-line-heading">
+        <p>The Challenge</p>
+    </div>
+    <div class="h-flow">
+        <h2>{{ challenge | safe }}</h2>
+    </div>
+</section>
+<section class="h-2-col-small-big c-section ">
+    <div class="h-2-line-heading">
+        <p>How we know this is a problem</p>
+    </div>
+    <div class="h-flow">
+        <h2>{{ problem | safe }}</h2>
+    </div>
+</section>
+{% if image2 %}
+<sction class="c-image h-rounded"><img src="{{ image2 | safe }}" /></sction>
+{% endif %}
+<section class="h-2-col-small-big c-section ">
+    <div class="h-2-line-heading">
+        <p>The Process</p>
+    </div>
+    <div class="h-flow">
+        <h2>{{ process | safe }}</h2>
+    </div>
+</section>
+
+
+{% if image3 %}
+<sction class="c-image h-rounded"><img src="{{ image3 | safe }}" /></sction>
+{% endif %}
+<section class="h-2-col-small-big c-section ">
+    <div class="h-2-line-heading">
+        <p>The Solution</p>
+    </div>
+    <div class="h-flow">
+        <h2>{{ solution | safe }}</h2>
+    </div>
+</section>
+
+{% if image4 %}
+<sction class="c-image h-rounded"><img src="{{ image4 | safe }}" /></sction>
+{% endif %}
+
+<section class="h-2-col-small-big c-section ">
+    <div class="h-2-line-heading">
+        <p>The Results</p>
+    </div>
+    <div class="h-flow">
+        <h2>{{ results | safe }}</h2>
+    </div>
+</section>
+{% include "partials/latest-case-studies.html" %}
+{% endblock %}

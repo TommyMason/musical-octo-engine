@@ -1,0 +1,35 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+
+
+{% include "partials/page-hero.html" %}
+
+{% if featureImage %}
+<img src="{{ featureImage | safe }}" />
+{% endif %}
+
+<ol class="flow ">
+  {% for item in collections.casestudy %}
+  <li class="post-list-item">
+    <p><a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a></p>
+    <p>{{ item.data.intro }}</p>
+    <a href="{{ item.url }}" class="c-btn--primary c-btn">View Case Study </a>
+  </li>
+  {% endfor %}
+</ol>
+
+
+
+<h4>{{ title }}</h4>
+{{ content | safe }}
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

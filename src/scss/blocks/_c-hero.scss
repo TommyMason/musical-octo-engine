@@ -1,0 +1,24 @@
+.c-hero img {
+  align-self: flex-end;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .c-hero img {
+    display: none;
+  }
+}
+
+
+
+.c-hero--text {
+  margin-bottom: var(--padding-large);
+}
+
+.c-hero-casestudy {
+  img {
+    width: 100%;
+  }
+
+  margin-bottom: var(--padding-large);
+}

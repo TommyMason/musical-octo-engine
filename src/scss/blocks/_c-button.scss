@@ -1,0 +1,61 @@
+.c-btn,
+input[type=submit] {
+  display: inline-flex;
+  border-radius: var(--border-radius);
+  padding: var(--padding-small) var(--padding-medium);
+  text-decoration: none;
+  text-align: center;
+  transition: all .2s ease-in;
+
+}
+
+.c-btn--ghost {
+  border: solid 1px var(--white);
+  color: var(--white);
+}
+
+.c-btn--ghost:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.c-btn--primary,
+input[type=submit] {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.c-btn--primary:hover,
+input[type=submit]:hover {
+  background-color: var(--black);
+}
+
+.c-btn--secondary {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.c-btn:hover {
+  background-color: var(--mid-grey);
+}
+
+.c-btn img,
+.c-btn svg {
+  margin-right: var(--padding-small);
+}
+
+.c-btn:hover svg .arrow {
+  -webkit-animation: bounce 1s infinite linear;
+  animation: bounce 1s infinite linear;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .c-btn,
+  input[type=submit] {
+    align-self: stretch;
+  }
+
+}

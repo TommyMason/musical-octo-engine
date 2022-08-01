@@ -1,0 +1,14 @@
+<section class="h-no-toppad">
+  <h3>Recent Work</h3>
+<ul class="c-case-studies h-2-col">
+  {% for item in collections.casestudy %}
+  <li class="post-list-item">
+    <a href="{{ item.url }}" >
+          {% if featureImage %}
+<img src="{{ item.data.thumbImage | safe }}" />
+{% endif %}
+    <h3>{{ item.data.title }}</h3> </a>
+  </a></li>
+  {% endfor %}
+</ul>
+</section>
