@@ -1,6 +1,4 @@
 {% extends "layouts/base.html" %}
-{% set pageCriticalStyles = ['css/post.css'] %}
-
 {# Grab other posts that aren't this one for the 'more from the blog' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 
