@@ -45,18 +45,18 @@ collections:
               name: "casestudy",
               widget: "relation",
               collection: "casestudy",
-              search_fields: ["name"],
-              value_field: "name",
-              display_field: ["name"],
+              search_fields: ["challenge"],
+              value_field: "challenge",
+              display_field: ["challenge"],
             }
           - {
               label: "Case Study 2",
               name: "casestudy2",
               widget: "relation",
-              collection: "case-studies",
-              search_fields: ["name"],
-              value_field: "name",
-              display_field: ["name"],
+              collection: "posts",
+              search_fields: ["title"],
+              value_field: "title",
+              display_field: ["title"],
             }
       - name: "services"
         label: "Services"
