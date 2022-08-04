@@ -75,7 +75,8 @@ collections:
           - {
               label: "Featured Image",
               name: "featureImage",
-              widget: "markdown",
+              widget: "image",
+              required: false,
             }
           - {
               label: "Image 1",
@@ -118,14 +119,6 @@ collections:
         delete: false
         file: "src/_data/site.json"
         fields:
-          - { label: "Site Name", name: "name", widget: "string" }
-          - { label: "Site Url", name: "url", widget: "string" }
-          - { label: "Author Name", name: "authorName", widget: "string" }
-          - {
-              label: "Author Email Address",
-              name: "authorEmail",
-              widget: "string",
-            }
           - {
               label: "Telephone",
               name: "telephone",
@@ -145,6 +138,24 @@ collections:
               widget: "string",
               required: false,
             }
+          - {
+              label: "Availability",
+              name: "availability",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Contact Link",
+              name: "contactlink",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Contact Link Text",
+              name: "contactlinktext",
+              widget: "string",
+              required: false,
+            }
       - label: "Main Navigation"
         name: "main nav"
         delete: false
@@ -156,7 +167,6 @@ collections:
             fields:
               - { label: "Text", name: "text", widget: "string" }
               - { label: "Url", name: "url", widget: "string" }
-
       - label: "Footer Navigation"
         name: "bottom nav"
         delete: false
