@@ -2,13 +2,26 @@
   <h3>Recent Work</h3>
 <ul class="c-case-studies h-2-col">
   {% for item in collections.casestudy %}
+  {% if item.data.name == casestudy1 %}
   <li class="post-list-item">
     <a href="{{ item.url }}" >
           {% if featureImage %}
-<img src="{{ item.data.thumbImage | safe }}" />
-{% endif %}
+          <img src="{{ item.data.thumbImage | safe }}" />
+          {% endif %}
     <h3>{{ item.data.title }}</h3> </a>
   </a></li>
+  {% endif %}
+  {% endfor %}
+  {% for item in collections.casestudy %}
+  {% if item.data.name == casestudy2 %}
+  <li class="post-list-item">
+    <a href="{{ item.url }}" >
+          {% if featureImage %}
+          <img src="{{ item.data.thumbImage | safe }}" />
+          {% endif %}
+    <h3>{{ item.data.title }}</h3> </a>
+  </a></li>
+  {% endif %}
   {% endfor %}
 </ul>
 </section>
