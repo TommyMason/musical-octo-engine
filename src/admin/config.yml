@@ -42,21 +42,21 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: "Case Study 1",
-              name: "casestudy",
+              name: "casestudy1",
               widget: "relation",
-              collection: "casestudy",
-              search_fields: ["challenge"],
-              value_field: "challenge",
-              display_field: ["challenge"],
+              collection: "case-studies",
+              search_fields: ["name"],
+              value_field: "name",
+              display_field: ["namde"],
             }
           - {
               label: "Case Study 2",
               name: "casestudy2",
               widget: "relation",
-              collection: "posts",
-              search_fields: ["title"],
-              value_field: "title",
-              display_field: ["title"],
+              collection: "case-studies",
+              search_fields: ["name"],
+              value_field: "name",
+              display_field: ["name"],
             }
       - name: "services"
         label: "Services"
@@ -119,6 +119,33 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "case-studies"
+    label: "Case Studies"
+    folder: "src/case-studies"
+    slug: "{{slug}}"
+    preview_path: "case-studies/{{slug}}"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "name", name: "name", widget: "string" }
+      - {
+          label: "featureImage",
+          name: "title",
+          widget: "image",
+          required: false,
+        }
+      - { label: "thumbImage", name: "title", widget: "string" }
+      - { label: "intro", name: "title", widget: "string" }
+      - { label: "image1", name: "image1", widget: "image", required: false }
+      - { label: "challenge", name: "title", widget: "string" }
+      - { label: "problem", name: "title", widget: "string" }
+      - { label: "image2", name: "image2", widget: "image", required: false }
+      - { label: "process", name: "title", widget: "string" }
+      - { label: "image3", name: "image3", widget: "image", required: false }
+      - { label: "solution", name: "title", widget: "string" }
+      - { label: "image4", name: "image4", widget: "image", required: false }
+      - { label: "results", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "services"
     label: "Services"
