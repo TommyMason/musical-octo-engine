@@ -40,6 +40,15 @@ collections:
               widget: "markdown",
             }
           - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Case Study 1",
+              name: "casestudy",
+              widget: "relation",
+              collection: "case-studies",
+              search_fields: ["title"],
+              value_field: "title",
+              display_fields: ["title"],
+            }
       - name: "services"
         label: "Services"
         delete: false
