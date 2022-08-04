@@ -1,5 +1,6 @@
 ---
 title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do..'
+name: Case Study 2
 featureImage: /images/placeholder3.png
 thumbImage: /images/placeholder2.png
 intro: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.

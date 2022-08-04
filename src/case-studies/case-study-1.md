@@ -1,5 +1,6 @@
 ---
 title: 'Services that Product Owners need, to reach the results they want.'
+name: Case Study 1
 featureImage: /images/placeholder3.png
 thumbImage: /images/placeholder1.png
 intro: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
