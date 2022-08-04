@@ -42,20 +42,20 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: "Case Study 1",
-              name: "casestudy1",
+              name: "casestudy",
               widget: "relation",
               collection: "casestudy",
               search_fields: ["name"],
-              value_field: "name",
+              value_fields: "name",
               display_fields: ["name"],
             }
           - {
               label: "Case Study 2",
-              name: "casestudy2",
+              name: "casestudy",
               widget: "relation",
               collection: "blog",
               search_fields: ["title", "date"],
-              value_field: "title",
+              value_fields: "title",
               display_fields: ["title", "date"],
             }
       - name: "services"
