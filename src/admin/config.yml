@@ -44,7 +44,16 @@ collections:
               label: "Case Study 1",
               name: "casestudy",
               widget: "relation",
-              collection: "case-studies",
+              collection: "casestudy",
+              search_fields: ["title"],
+              value_field: "title",
+              display_fields: ["title"],
+            }
+          - {
+              label: "Case Study 2",
+              name: "casestudy",
+              widget: "relation",
+              collection: "casestudy",
               search_fields: ["title"],
               value_field: "title",
               display_fields: ["title"],
