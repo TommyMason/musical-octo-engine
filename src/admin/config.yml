@@ -131,21 +131,21 @@ collections:
       - { label: "name", name: "name", widget: "string" }
       - {
           label: "featureImage",
-          name: "title",
+          name: "featureImage",
           widget: "image",
           required: false,
         }
-      - { label: "thumbImage", name: "title", widget: "string" }
+      - { label: "thumbImage", name: "thumbImage", widget: "string" }
       - { label: "intro", name: "title", widget: "string" }
-      - { label: "image1", name: "image1", widget: "image", required: false }
-      - { label: "challenge", name: "title", widget: "string" }
-      - { label: "problem", name: "title", widget: "string" }
+      - { label: "image1", name: "intro", widget: "image", required: false }
+      - { label: "challenge", name: "challenge", widget: "string" }
+      - { label: "problem", name: "problem", widget: "string" }
       - { label: "image2", name: "image2", widget: "image", required: false }
-      - { label: "process", name: "title", widget: "string" }
+      - { label: "process", name: "process", widget: "string" }
       - { label: "image3", name: "image3", widget: "image", required: false }
-      - { label: "solution", name: "title", widget: "string" }
+      - { label: "solution", name: "solution", widget: "string" }
       - { label: "image4", name: "image4", widget: "image", required: false }
-      - { label: "results", name: "title", widget: "string" }
+      - { label: "results", name: "results", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "services"
     label: "Services"
