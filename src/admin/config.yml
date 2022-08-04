@@ -49,6 +49,15 @@ collections:
               value_field: "name",
               display_field: ["name"],
             }
+          - {
+              label: "Case Study 2",
+              name: "casestudy2",
+              widget: "relation",
+              collection: "case-studies",
+              search_fields: ["name"],
+              value_field: "name",
+              display_field: ["name"],
+            }
       - name: "services"
         label: "Services"
         delete: false
