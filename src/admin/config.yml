@@ -42,7 +42,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: "Case Study 1",
-              name: "casestudy",
+              name: "casestudy1",
               widget: "relation",
               collection: "casestudy",
               search_fields: ["title"],
@@ -51,7 +51,7 @@ collections:
             }
           - {
               label: "Case Study 2",
-              name: "casestudy",
+              name: "casestudy2",
               widget: "relation",
               collection: "casestudy",
               search_fields: ["title"],
