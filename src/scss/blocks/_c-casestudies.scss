@@ -1,9 +1,20 @@
+.c-case-studies-wrapper {
+  padding: var(--padding);
+
+  @media screen and (min-width: 600px) {
+    padding: var(--padding-large) var(--padding) var(--padding-large) var(--padding);
+  }
+}
+
 .c-case-studies {
   list-style: none;
   padding: 0;
 
   li {
-    margin-bottom: var(--padding-medium);
+    @media screen and (max-width: 600px) {
+      margin-bottom: var(--padding-medium);
+    }
+
   }
 
   a {

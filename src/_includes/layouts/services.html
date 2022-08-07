@@ -3,16 +3,23 @@
 
 
 {% include "partials/page-hero.html" %}
-<h3>{{ subtitle }}</h3>
-<ul class="c-services flow h-3-col">
+
+<h3 class="c-title">{{ subtitle }}</h3>
+
+<ul class="c-services h-3-col">
   {% for item in collections.service %}
-  <li class="post-list-item">
-    <p><a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a></p>
-    <p>{{ item.templateContent | safe }}</p>
+  <li class="post-list-item  h-flow ">
+    <h3><a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a></h3>
+    {{ item.templateContent | safe }}
+    {% if item.data.available %} 
     <a href="{{ site.contactlink }}" class="c-btn--primary c-btn">{{ site.contactlinktext }} </a>
+    {% else %}
+    <span class="c-btn--secondary c-btn">Currently Unavailable</span>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>
+
 <section class="h-2-col h-no-toppad">
 
   {% if image1 %}

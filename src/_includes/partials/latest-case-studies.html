@@ -1,4 +1,5 @@
-<section class="h-no-toppad">
+{% if casestudy1 %}
+<section class="c-case-studies-wrapper ">
   <h3>Recent Work</h3>
 <ul class="c-case-studies h-2-col">
   {% for item in collections.casestudy %}
@@ -25,3 +26,4 @@
   {% endfor %}
 </ul>
 </section>
+{% endif %}

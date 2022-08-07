@@ -20,5 +20,17 @@
     width: 100%;
   }
 
+
+
   margin-bottom: var(--padding-large);
+}
+
+
+.c-hero-casestudy+h1 {
+  padding: var(--padding);
+
+  @media screen and (min-width: 600px) {
+    width: 55%;
+    // padding: 0 0 0 var(--padding-large);
+  }
 }

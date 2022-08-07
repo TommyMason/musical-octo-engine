@@ -1,13 +1,13 @@
 ---
 title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do..'
 name: Case Study 2
-featureImage: /images/placeholder3.png
-thumbImage: /images/placeholder2.png
+featureImage: /images/Askews Header.png
+thumbImage: /images/Askews Listing Image.png
 intro: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
-image1: /images/services-1.png
+image1: /images/Askews Inner 5.png
 challenge: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
 problem: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
-image2: /images/services-2.png
+image2: /images/Askews-Inner-6.jpeg
 process: >-
   I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies. 
 
@@ -15,9 +15,9 @@ process: >-
 
   I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
 
-image3: /images/services-2.png
+image3: /images/Askews-Inner-7.jpeg
 solution: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
-image4: /images/services-2.png
+image4: /images/Askews Inner 8.png
 results: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
 ---
 

@@ -1,3 +1,15 @@
 .c-services {
-  padding: var(--padding-large) 0 var(--padding-large) 0;
+  padding: var(--padding-x-large) var(--padding) var(--padding-large) var(--padding);
+
+  h3 a {
+    text-decoration: none;
+  }
+
+  .post-list-item {
+    justify-content: space-between;
+  }
+}
+
+.c-title {
+  padding: var(--padding);
 }

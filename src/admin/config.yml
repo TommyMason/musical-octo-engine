@@ -47,7 +47,7 @@ collections:
               collection: "case-studies",
               search_fields: ["name"],
               value_field: "name",
-              display_field: ["namde"],
+              display_field: ["name"],
             }
           - {
               label: "Case Study 2",
@@ -116,7 +116,7 @@ collections:
               collection: "case-studies",
               search_fields: ["name"],
               value_field: "name",
-              display_field: ["namde"],
+              display_field: ["name"],
             }
           - {
               label: "Case Study 2",
@@ -165,6 +165,24 @@ collections:
       - { label: "image4", name: "image4", widget: "image", required: false }
       - { label: "results", name: "results", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Case Study 1",
+          name: "casestudy1",
+          widget: "relation",
+          collection: "case-studies",
+          search_fields: ["name"],
+          value_field: "name",
+          display_field: ["name"],
+        }
+      - {
+          label: "Case Study 2",
+          name: "casestudy2",
+          widget: "relation",
+          collection: "case-studies",
+          search_fields: ["name"],
+          value_field: "name",
+          display_field: ["name"],
+        }
   - name: "services"
     label: "Services"
     folder: "src/services"

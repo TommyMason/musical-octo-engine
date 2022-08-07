@@ -3,12 +3,16 @@
   color: var(--white);
   padding: .5rem;
   text-align: center;
-  margin-bottom: 1rem;
+
+  @media screen and (max-width: 600px) {
+    margin-bottom: var(--padding);
+  }
 }
 
 @media screen and (max-width: 600px) {
   .c-header--bar {
     width: 100%;
+    padding: var(--padding);
   }
 }
 
@@ -18,7 +22,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: var(--padding-small) var(--padding);
+    padding: var(--padding-medium) var(--padding-large);
   }
 }
 
