@@ -61,7 +61,7 @@ module.exports = config => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
-  // Returns a collection of blog posts in reverse date order
+  // Returns a collection of blog posts
   config.addCollection('service', collection => {
     return [...collection.getFilteredByGlob('./src/services/*.md')];
   });
