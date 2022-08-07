@@ -1,5 +1,23 @@
 {% set assetHash = global.random() %}
+{% set pageTitle = title + ' - ' + site.name %}
 
+{# We don't want any duplication. This is likely for the homepage #}
+{% if site.name === title %} 
+  {% set pageTitle = title %}
+{% endif %}
+
+{% set siteTitle = site.name %}
+{% set currentUrl = site.url + page.url %}
+
+{# If the page’s frontmatter has specific metaTitle and/or metaDesc items, switch 
+  them into the mix #}
+{% if metaTitle %}
+  {% set pageTitle = metaTitle %}
+{% endif %}
+
+{% if not metaDesc %}
+  {% set metaDesc = summary %}
+{% endif %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +25,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ pageTitle }}</title>
         <meta name="robots" content="index, follow, noodp" />
-        <meta name="description" content="">
+        <meta name="description" content="I design products for leading agencies and scale-up companies.">
         <meta property="og:title" content="{{ pageTitle }}">
         <meta property="og:site_name" content="{{ pageTitle }}">
         <meta property="og:url" content="www.Tommy Mason.co.uk">
