@@ -142,17 +142,22 @@ collections:
           widget: "image",
           required: false,
         }
-      - { label: "thumbImage", name: "thumbImage", widget: "string" }
-      - { label: "intro", name: "intro", widget: "string" }
+      - {
+          label: "thumbImage",
+          name: "thumbImage",
+          widget: "image",
+          required: false,
+        }
+      - { label: "intro", name: "intro", widget: "text" }
       - { label: "image1", name: "image1", widget: "image", required: false }
-      - { label: "challenge", name: "challenge", widget: "string" }
-      - { label: "problem", name: "problem", widget: "string" }
+      - { label: "challenge", name: "challenge", widget: "text" }
+      - { label: "problem", name: "problem", widget: "text" }
       - { label: "image2", name: "image2", widget: "image", required: false }
-      - { label: "process", name: "process", widget: "string" }
+      - { label: "process", name: "process", widget: "text" }
       - { label: "image3", name: "image3", widget: "image", required: false }
-      - { label: "solution", name: "solution", widget: "string" }
+      - { label: "solution", name: "solution", widget: "text" }
       - { label: "image4", name: "image4", widget: "image", required: false }
-      - { label: "results", name: "results", widget: "string" }
+      - { label: "results", name: "results", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
           label: "Case Study 1",
