@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 768px) {
   .h-3-col {
-    padding: var(--padding-large) var(--padding);
+    padding: var(--padding-large) var(--padding-medium);
   }
 
 }
@@ -95,16 +95,18 @@
 }
 
 .h-full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  @media screen and (min-width: 768px) {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
 }
 
 .h-2-col-small-big {
-  padding: var(--padding);
+  padding: var(--padding-medium);
 }
 
 .h-2-col {

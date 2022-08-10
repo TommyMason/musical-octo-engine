@@ -6,7 +6,7 @@
 
 <h3 class="c-title">{{ subtitle }}</h3>
 
-<ul class="c-services h-3-col">
+<ul class="c-services h-3-col  h-flow ">
   {% for item in collections.service %}
   <li class="post-list-item  h-flow ">
     <h3><a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a></h3>
@@ -20,7 +20,7 @@
   {% endfor %}
 </ul>
 
-<section class="h-2-col h-no-toppad">
+<section class="h-2-col h-no-toppad c-images">
 
   {% if image1 %}
 <img src="{{ image1 | safe }}" alt="Tommy Mason"/>
@@ -39,7 +39,7 @@
         <p>{{ title }}</p>
     </div>
     <div class="h-flow">
-        <h2>{{ content | safe }}</h2>
+       {{ content | safe }}
     </div>
 </section>
 

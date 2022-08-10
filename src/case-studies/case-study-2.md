@@ -19,6 +19,9 @@ image3: /images/Askews-Inner-7.jpeg
 solution: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
 image4: /images/Askews Inner 8.png
 results: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
+casestudytitle: Other recently completed
+casestudy1: Case Study 2
+casestudy2: Case Study 1
 ---
 
 You have an existing product and would like a user experience audit to identify areas of opportunity to increase revenue.
