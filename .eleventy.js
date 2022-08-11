@@ -44,6 +44,7 @@ module.exports = config => {
   config.addPassthroughCopy('./src/images/');
   config.addPassthroughCopy('./src/fonts/');
   config.addPassthroughCopy('./src/favicon.ico');
+  config.addPassthroughCopy('./src/_includes/js/hover.js');
   config.addPassthroughCopy('src/admin/config.yml');
   config.addPassthroughCopy('src/admin/previews.js');
   config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');

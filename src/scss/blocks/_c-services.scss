@@ -11,5 +11,12 @@
 }
 
 .c-title {
-  padding: var(--padding-large) var(--padding-medium) var(--padding) var(--padding-medium);
+  padding: var(--padding-large) var(--padding-medium) 0 var(--padding-medium);
+  font-size: 2.813rem;
+  line-height: 3.563rem;
+
+  @media screen and (max-width: 600px) {
+    font-size: 2.113rem;
+    line-height: 2.563rem;
+  }
 }

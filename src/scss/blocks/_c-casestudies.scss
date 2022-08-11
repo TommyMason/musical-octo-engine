@@ -15,9 +15,27 @@
       margin-bottom: var(--padding-medium);
     }
 
+    .img {
+      margin-bottom: var(--padding-medium);
+
+      @media screen and (max-width: 600px) {
+        margin-bottom: var(--padding);
+      }
+    }
+
   }
 
-  a {
-    text-decoration: none;
+
+}
+
+
+.img {
+  // width: 100%;
+  height: 40vw;
+
+  @media screen and (max-width: 600px) {
+    height: 80vw;
   }
+
+  overflow: hidden;
 }

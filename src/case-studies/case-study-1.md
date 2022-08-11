@@ -4,6 +4,7 @@ name: Case Study 1
 featureImage: /images/CA Header.png
 featureImageAlt: Askews Inner
 thumbImage: /images/CA Listing Image.png
+thumbImageHover: /images/CA Listing Image-hover.png
 intro: I work with both leading agencies and scale-up companies that want to create user-centric products. Driven by insights, research studies and the latest design methodologies.
 image1: /images/CA Inner 1.png
 image1alt: CA Inner
