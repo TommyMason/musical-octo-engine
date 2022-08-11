@@ -6,9 +6,9 @@
 
 <h3 class="c-title">{{ subtitle }}</h3>
 
-<ul class="c-services h-3-col  h-flow ">
+<ul class="c-services h-3-col ">
   {% for item in collections.service %}
-  <li class="post-list-item  h-flow ">
+  <li class="post-list-item  h-flow">
     <h3><a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a></h3>
     {{ item.templateContent | safe }}
     {% if item.data.available %} 
