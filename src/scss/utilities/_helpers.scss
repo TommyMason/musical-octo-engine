@@ -58,9 +58,9 @@
 
 @media screen and (min-width: 768px) {
   .h-3-col {
-
+    padding: var(--padding-large) var(--padding-medium) var(--padding-x-large)var(--padding-medium);
     display: grid !important;
-    grid-gap: 2rem;
+    grid-gap: 4rem;
     grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
     justify-items: center;
   }

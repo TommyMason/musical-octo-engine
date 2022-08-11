@@ -1,7 +1,7 @@
 .c-section {
   display: flex;
   flex-direction: column;
-  padding: var(--padding-large) var(--padding-large);
+  padding: var(--padding-large) var(--padding-large) var(--padding-x-large) var(--padding-large);
 }
 
 .h-3-col .c-section {

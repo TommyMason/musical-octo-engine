@@ -6,8 +6,11 @@ permalink: '/services/index.html'
 metaDesc: 
 intro: Services that Product Owners need, to reach the results they want.
 featureImage: /images/services.png
+featureImageAlt: Services Image
 image1: /images/services-1.png
+image1alt: CA Inner
 image2: /images/services-2.png
+image2alt: CA Inner
 casestudytitle: Recent Work
 casestudy1: Case Study 2
 casestudy2: Case Study 1
