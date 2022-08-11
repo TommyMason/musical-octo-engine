@@ -41,7 +41,6 @@ collections:
               widget: "string",
               required: false,
             }
-          - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: "Case Study 1",
               name: "casestudy1",
@@ -163,6 +162,12 @@ collections:
           required: false,
         }
       - {
+          label: "Feature Image Alt Tag",
+          name: "featureImageAlt",
+          widget: "string",
+          required: false,
+        }
+      - {
           label: "thumbImage",
           name: "thumbImage",
           widget: "image",
@@ -170,13 +175,37 @@ collections:
         }
       - { label: "intro", name: "intro", widget: "text" }
       - { label: "image1", name: "image1", widget: "image", required: false }
+      - {
+          label: "Image 1 Alt Tag",
+          name: "image1alt",
+          widget: "string",
+          required: false,
+        }
       - { label: "challenge", name: "challenge", widget: "text" }
       - { label: "problem", name: "problem", widget: "text" }
       - { label: "image2", name: "image2", widget: "image", required: false }
+      - {
+          label: "Image 2 Alt Tag",
+          name: "image2alt",
+          widget: "string",
+          required: false,
+        }
       - { label: "process", name: "process", widget: "text" }
       - { label: "image3", name: "image3", widget: "image", required: false }
+      - {
+          label: "Image 3 Alt Tag",
+          name: "image3alt",
+          widget: "string",
+          required: false,
+        }
       - { label: "solution", name: "solution", widget: "text" }
       - { label: "image4", name: "image4", widget: "image", required: false }
+      - {
+          label: "Image 4 Alt Tag",
+          name: "image4alt",
+          widget: "string",
+          required: false,
+        }
       - { label: "results", name: "results", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
