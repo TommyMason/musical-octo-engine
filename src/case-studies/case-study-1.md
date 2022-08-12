@@ -7,12 +7,11 @@ featureImageAlt: Career Assistant Hero
 thumbImage: /images/CA Listing Image.png
 intro: >-
   Jobs.co.uk are one of the leading recruitment agencies in the UK. They work
-  closely with Pertemps Recruitment - with who I have provided design service
-  many times across many of their brands. So that’s how this project landed in
-  my inbox.
+  closely with Pertemps Recruitment, with whom I have often provided design
+  services across their brands. So that’s how this project landed in my inbox.
 
 
-  Jobs.co.uk had a concept called the ‘career assistant’ in their backlog, but for a while, it's just been collecting dust.
+  Jobs.co.uk had a concept called the ‘career assistant’ in their backlog, but it's just been collecting dust for a while.
 image1: /images/CA Header.png
 image1alt: CA Inner
 challenge: So we had an idea for a product, great. But so does every other Tom,
