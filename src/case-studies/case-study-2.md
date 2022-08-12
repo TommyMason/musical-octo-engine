@@ -41,7 +41,7 @@ results: The site has seen a 75% increase in online enquiries since the site
   relaunched with the new UX features and user journeys in place.
 thumbImageHover: /images/Askews Listing Image-hover.png
 image4: /images/Askews-Inner-7.jpeg
-casestudy1: Case Study 2
+casestudy1: Askews Legal
 casestudy2: Career Assistant
 casestudytitle: Other recently completed
 ---
