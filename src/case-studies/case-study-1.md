@@ -1,6 +1,5 @@
 ---
-title: Helping jobs.co.uk create a platform that helps lost students find their
-  career path.
+title: Helping students find their career path.
 name: Career Assistant
 featureImage: /images/macbook-pertemps-1.png
 featureImageAlt: Career Assistant Hero
