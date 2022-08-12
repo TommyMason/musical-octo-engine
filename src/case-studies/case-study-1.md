@@ -47,7 +47,7 @@ results: The product noticed a 103% increase in user applications and a +5k
   corporation has since purchased the product.
 thumbImageHover: /images/CA Listing Image-hover.png
 image4: /images/CA Inner 3.png
-casestudy1: Case Study 2
+casestudy1: Askews Legal
 casestudy2: Career Assistant
 casestudytitle: Other recently completed
 ---
