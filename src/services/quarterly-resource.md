@@ -1,5 +1,4 @@
 ---
-title: 'Quarterly resource'
+title: Quarterly resource
 ---
-
-A combination of the UX audit and user research. Taking these findings and implementing design solutions via A/B testing.
+Hire me on a short-term basis and be fully integrated into your design team. I'll work on your product backlog and help you design new features and products.
