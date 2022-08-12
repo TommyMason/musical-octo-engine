@@ -11,7 +11,7 @@ image1: /images/services-1.png
 image1alt: CA Inner
 image2: /images/services-2.png
 image2alt: CA Inner
-casestudy1: Case Study 2
+casestudy1: Askews Legal
 casestudy2: Career Assistant
 casestudytitle: Recent Work
 ---
