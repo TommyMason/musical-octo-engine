@@ -9,9 +9,9 @@ intro: I was tasked with increasing quality enquiries through the website. I was
   Optimisation (CRO) and help them meet and exceed the client’s expectations.
 image1: /images/Askews Inner 5.png
 image1alt: Askews Inner
-challenge: I work with both leading agencies and scale-up companies that want to
-  create user-centric products. Driven by insights, research studies and the
-  latest design methodologies.
+challenge: To collect, identify and understand user requirements and needs. Once
+  these have been identified, then implement solutions into the site's user
+  experience to improve the conversion rate.
 problem: Basic Google Analytics showed the performance team that the blog
   content was driving a lot of organic traffic toward the site but the
   conversion rate was around 0.5%. The average conversion rate for the legal
