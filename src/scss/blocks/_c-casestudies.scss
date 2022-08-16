@@ -9,6 +9,7 @@
 .c-case-studies {
   list-style: none;
   padding: 0;
+  align-items: flex-start !important;
 
   li {
     @media screen and (max-width: 600px) {
